@@ -12,7 +12,7 @@ This project utilises a Convolutional Neural Network (CNN) to classify binary im
   - `no/`: Images showing no tumour
   - `test image/`: Additional image used for prediction testing
 - `model/brain-tumor-classification-cnn_model.keras`: Saved trained CNN model in Keras format
-- `slides//Brain Tumour Detection with CNN.pdf`: Contains presentation slides summarising the project in PDF format
+- `slides/Brain Tumour Detection with CNN.pdf`: Contains presentation slides summarising the project in PDF format
 
 ---
 
