@@ -61,7 +61,7 @@ The notebook includes:
 ## Model Notebook  
 
 The full notebook used for image loading, model training, and evaluation:  
-[View Notebook](brain_tumor_classification_cnn)
+[View Notebook](brain_tumour_classification_cnn.ipynb)
 
 ---
 
