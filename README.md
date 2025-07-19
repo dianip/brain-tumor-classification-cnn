@@ -9,6 +9,8 @@ This project utilises a Convolutional Neural Network (CNN) to classify binary im
 - `brain_tumour_cnn.ipynb`: Main notebook containing preprocessing, model training, evaluation, and single-image testing.
 - `data/`: Folder containing MRI images — split into `yes`, `no`, and `test image` directories.
 - `model/brain-tumor-classification-cnn_model.keras`: Saved trained CNN model in Keras format.
+- `slides//Brain Tumour Detection with CNN.pdf`: Contains presentation slides summarising the project in PDF format (`Brain Tumour Detection with CNN.pdf`).
+
 
 ---
 
