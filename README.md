@@ -53,11 +53,13 @@ The notebook includes:
 ---
 
 ## Full Presentation Slides  
-[View Slides (PDF)](slides/Brain_Tumour_Detection_with_CNN.pdf)
+
+[View Slides (PDF)](slides/Brain Tumour Detection with CNN.pdf)
 
 ---
 
 ## Model Notebook  
+
 The full notebook used for image loading, model training, and evaluation:  
 [View Notebook](brain_tumour_cnn.ipynb)
 
@@ -67,8 +69,14 @@ The full notebook used for image loading, model training, and evaluation:
 
 This project uses the [**Brain MRI Images for Brain Tumour Detection**](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection) dataset from Kaggle, created by Navoneel Chakrabarty (accessed on 15 July 2025).
 
+The images are stored locally in the `data/` folder, organised into:
+- `yes/`: MRI scans showing tumours
+- `no/`: MRI scans without tumours
+- `test image/`: Image used for final model testing
+
 ---
 
 ## Model Output  
+
 The trained CNN model is saved here:  
 [Download Model (.keras)](model/brain-tumor-classification-cnn_model.keras)
