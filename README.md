@@ -1,6 +1,6 @@
 # Brain Tumour Classification with CNN
 
-This project applies a Convolutional Neural Network (CNN) to MRI brain scans for binary image classification, distinguishing between patients with and without brain tumours.
+This project utilises a Convolutional Neural Network (CNN) to classify binary images of MRI brain scans, distinguishing between patients with and without brain tumours.
 
 ---
 
@@ -26,7 +26,7 @@ This project applies a Convolutional Neural Network (CNN) to MRI brain scans for
 The notebook includes:
 
 - **Data Preprocessing**: Loads and resizes MRI images to 64x64, normalises pixel values, and assigns binary labels.
-- **Train/Validation/Test Split**: Splits dataset into 3 sets for model training and evaluation.
+- **Train/Validation/Test Split**: Splits the dataset into 3 sets for model training and evaluation.
 - **CNN Model Architecture**:
   - 3 convolutional layers with ReLU activation
   - 2 max-pooling layers
@@ -48,6 +48,23 @@ The notebook includes:
 
 ---
 
+## Full Presentation Slides  
+[View Slides (PDF)](slides/Brain_Tumour_Detection_with_CNN.pdf)
+
+---
+
+## Model Notebook  
+The full notebook used for image loading, model training, and evaluation:  
+[View Notebook](brain_tumour_cnn.ipynb)
+
+---
+
 ## Dataset
 
 This project uses the [**Brain MRI Images for Brain Tumour Detection**](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection) dataset from Kaggle, created by Navoneel Chakrabarty (accessed on 15 July 2025).
+
+---
+
+## Model Output  
+The trained CNN model is saved here:  
+[Download Model (.keras)](model/brain-tumor-classification-cnn_model.keras)
